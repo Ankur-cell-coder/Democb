@@ -7,7 +7,7 @@ function HomePage() {
   return (
     <Home1>
       <div className="logo">
-       <div style={{marginTop:'10px'}}>Credit Company</div> 
+       <div style={{marginTop:'2px',fontSize:'30px'}}>Credit Bazar</div> 
       </div>
       
       <div className="rightpart">
@@ -22,7 +22,7 @@ function HomePage() {
       </div>  */}
 
       <div> 
-        <Link to='/login'>
+        <Link to='/login' className="login">
         Login
         </Link>
           
